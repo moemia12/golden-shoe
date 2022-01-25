@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+body, ul, li, p, a, label, input, div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px !important;
+    font-weight: 300 !important;
+  }
+  .h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px !important;
+    font-weight: 200 !important;
+  }
+  .h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 300;
+  }
+  .h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px !important;
+  }
+  /* General */
+  .logo { font-weight: 500 !important;}
+  .btn-success {
+    background-color: #FFD700 !important;
+    border-color: #FFD700 !important;
+  }
+
+  /* Nav */
+  #templatemo_nav_top { min-height: 40px;}
+  #templatemo_nav_top * { font-size: 12px !important;}
+  #templatemo_main_nav a { color: #212934;}
+  #templatemo_main_nav a:hover { color: #FFD700;}
+  #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+  #logo { color: #FFD700; }
+  
+  /* Hero Carousel (Body) */
+  #template-mo-jassa-hero-carousel { background: #efefef !important;}
+
+  /* Footer */
+  #tempaltemo_footer a { color: #dcdde1;}
+  #tempaltemo_footer a:hover { color: #FFD700;}
+  #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
+  #tempaltemo_footer ul.footer-icons li {
+    width: 2.6em;
+    height: 2.6em;
+    line-height: 2.6em;
+  }
+
+
+  #tempaltemo_footer .border-light { border-color: #2d343f !important;}
+  #footerlogo { color: #FFD700}
+  
+  /* Media Queries */
+
+  
+  @media (min-width: 576px) {
+    .tempaltemo-carousel .h1 { font-size: 1em !important;}
+  }
+  
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+    #templatemo_main_nav .navbar-nav {max-width: 450px;}
+   }
+  
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+    #templatemo_main_nav .navbar-nav {max-width: 550px;}
+    #template-mo-jassa-hero-carousel .carousel-item {min-height: 30rem !important;}
+    .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
+    .product-wap .product-color-dot {
+      width: 12px;
+      height: 12px;
+    }
+  }
