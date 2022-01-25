@@ -1,3 +1,4 @@
+## Golden Shoe
 Welcome to the sample site recommendation of Golden Shoe. The site has been built with React and Bootstrap. 
 
 Before running the site please ensure you have the latest versions of React and Bootstrap downloaded.
